@@ -50,8 +50,8 @@
       "name": "comment.line.gf"
     },
     {
-      "begin": "-",
-      "end": "-",
+      "begin": "{-",
+      "end": "-}",
       "name": "comment.block.gf"
     }
   ]
