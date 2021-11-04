@@ -1,5 +1,7 @@
 # Change Log
-All notable changes to the "gf" extension will be documented in this file.
+
+## 1.4.0
+- Update publisher information and README
 
 ## 1.3.0
 - Fixed block comments (they are `{- ... -}` and not just dashes)

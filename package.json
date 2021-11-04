@@ -1,45 +1,40 @@
 {
-	"name": "gf-vscode",
-	"displayName": "Grammatical Framework",
-	"description": "Grammatical Framework language support for Visual Studio Code",
-	"author": "Rob Clouth",
-	"version": "1.3.0",
-	"publisher": "robclouth",
-	"engines": {
-		"vscode": "^1.5.0"
-	},
-	"categories": [
-		"Programming Languages"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/robclouth/gf-vscode"
-	},
-	"contributes": {
-		"languages": [
-			{
-				"id": "gf",
-				"aliases": [
-					"Grammatical Framework",
-					"gf"
-				],
-				"extensions": [
-					".gf"
-				],
-				"configuration": "./language-configuration.json"
-			}
-		],
-		"grammars": [
-			{
-				"language": "gf",
-				"scopeName": "source.gf",
-				"path": "./syntaxes/gf.tmLanguage.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "1b7172f5-b58e-48db-b3dc-6a46e409b5ca",
-		"publisherId": "09a8910c-03c8-40db-a13b-4c8290c903ba",
-		"publisherDisplayName": "Rob Clouth"
-	}
+  "name": "gf-vscode",
+  "displayName": "Grammatical Framework",
+  "description": "Grammatical Framework language support for Visual Studio Code",
+  "author": "John J. Camilleri",
+  "version": "1.4.0",
+  "publisher": "GrammaticalFramework",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GrammaticalFramework/gf-vscode"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "gf",
+        "aliases": [
+          "Grammatical Framework",
+          "gf"
+        ],
+        "extensions": [
+          ".gf"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "gf",
+        "scopeName": "source.gf",
+        "path": "./syntaxes/gf.tmLanguage.json"
+      }
+    ]
+  }
 }
