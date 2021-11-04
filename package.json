@@ -3,7 +3,7 @@
   "displayName": "Grammatical Framework",
   "description": "Grammatical Framework language support for Visual Studio Code",
   "author": "John J. Camilleri",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "publisher": "GrammaticalFramework",
   "license": "MIT",
   "icon": "images/icon.png",

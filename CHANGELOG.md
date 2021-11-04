@@ -1,11 +1,8 @@
 # Change Log
 
-## 1.5.0
+## 2.0.0
 - Fix grammar
 - Add icon
-
-## 1.4.0
-- Update publisher information and README
 
 ## 1.3.0
 - Fixed block comments (they are `{- ... -}` and not just dashes)
