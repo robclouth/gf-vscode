@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.0.1
+- Update icon
+- Add screenshots to README
+
 ## 2.0.0
 - Fix grammar
 - Add icon
