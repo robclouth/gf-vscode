@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.5.0
+- Fix grammar
+- Add icon
+
 ## 1.4.0
 - Update publisher information and README
 
