@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
   "scopeName": "source.gf",
   "name": "Grammatical Framework",
   "fileTypes": [
@@ -22,7 +21,7 @@
       "name": "keyword.other.gf"
     },
     {
-      "match": "(=>|->|:|=|\\.|\\+|\\*|\\!|\\||\\\\)",
+      "match": "(=>|->|:|=|\\.|\\+|\\*|!|\\||\\\\)",
       "name": "constant.gf"
     },
     {
@@ -31,8 +30,8 @@
     },
     {
       "name": "string.quoted.double.gf",
-      "begin": "",
-      "end": "",
+      "begin": "\"",
+      "end": "\"",
       "beginCaptures": {
         "0": {
           "name": "punctuation.string.begin.gf"
@@ -50,8 +49,8 @@
       "name": "comment.line.gf"
     },
     {
-      "begin": "-",
-      "end": "-",
+      "begin": "{-",
+      "end": "-}",
       "name": "comment.block.gf"
     }
   ]
